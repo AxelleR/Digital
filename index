@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>impress.js | presentation de l'offre digital Headlink-Partners | by Axelle Roset</title>
+    
+    <meta name="description" content="impress.js est une presentation sur l'offre accélération digitale de Headlink-Partners." />
+    <meta name="author" content="Axelle Roset" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+
+    <link href="css/impress-demo.css" rel="stylesheet" />
+    
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+</head>
+
+
+<body class="impress-not-supported">
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+
+
+<div id="impress">
+
+<div id="title" class="step" data-x="0" data-y="0" data-scale="4">
+<span class="try"><center>Headlink Partners vous pr&eacutesente son offre acc&eacutel&eacuteration digitale </center></span>
+</div>
+
+    
+
+<div id="its" class="step" data-x="6000" data-y="3000" data-rotate="90" data-scale="5">
+<p ALIGN="JUSTIFY"> Fond&eacute en 2000, Headink Partners est aujourd'hui le premier cabinet fran&ccedilais d'ex&eacutecution strat&eacutegique.&nbsp;</p>
+
+<p ALIGN="JUSTIFY"> Notre m&eacutetier est de faire ce qui a &eacutet&eacute d&eacutecid&eacute par la direction g&eacuten&eacuterale de nos clients.
+
+</p>
+<p ALIGN="JUSTIFY"> Bien souvent, le faire mieux et plus rapidement que la concurrence est plus important que d'imaginer des offres futuristes. C'est du moins le cas pour les secteurs d'activit&eacute guid&eacutes par des mod&egraveles &eacuteconomiques, des besoins clients et des structures concurrentielles stables, connus de tous les acteurs.
+
+</p>
+<p ALIGN="JUSTIFY"> Trois convictions nous animent pour assister nos clients :
+</p><p>
+   - L'ex&eacutecution strat&eacutegique est une question de d&eacutetails</p>
+<p ALIGN="JUSTIFY"> 
+   - L'ex&eacutecution est une question de vitesse</p>
+<p ALIGN="JUSTIFY"> 
+   - L'ex&eacutecution est une question de contr&ocircle</p>
+</div>
+
+
+
+<div id="tiny" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
+<p>and <b>tiny</b> ideas</p>
+</div>
+
+
+<div id="ing" class="step" data-x="3500" data-y="-850" data-rotate="270" data-scale="6">
+<p>by <b class="positioning">positioning</b>, <b class="rotating">rotating</b> and <b class="scaling">scaling</b> them on an infinite canvas</p>
+</div>
+
+
+
+<div id="imagination" class="step" data-x="6700" data-y="-300" data-scale="6">
+<video controls src="gizmo.webm"></video>
+</div>
+
+
+<div id="source" class="step" data-x="3000" data-y="2000" data-rotate="20" data-scale="4">
+<iframe src="http://fr.slideshare.net/slideshow/embed_code/12218941" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe> 
+</div>
+
+
+
+<div id="its-in-3d" class="step" data-x="16200" data-y="4300" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
+<p><span class="have">have</span> <span class="you">you</span> <span class="noticed">noticed</span> <span class="its">it's</span> <span class="in">in</span> <b>3D<sup>*</sup></b>?</p><span class="footnote">* beat that, prezi ;)</span>
+</div>
+
+
+<div id="visualization" class="step" data-x="16200" data-y="4300" data-rotate-x="-40" data-rotate-y="10" data-scale="2"></div>
+
+
+<div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
+
+</div>
+
+</div>
+
+
+<div class="hint">
+<p>Use a spacebar or arrow keys to navigate</p>
+</div>
+
+<script>
+if ("ontouchstart" in document.documentElement) { 
+document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+</body>
+</html>
